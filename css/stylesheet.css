@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-size:16px;
+    font-family: 'Roboto', 'sans-serif';
+}
+
+#navbar{
+    width:100%;
+    height:auto;
+    background:#0353a4;
+    text-align: right;
+    position:absolute;
+}
+
+#navbar ul{
+    margin-left:50%;
+    display:flex;
+    justify-content: flex-end;
+    align-items: stretch;
+    flex-direction: row;
+    width:50%;
+    height: 75px;
+    list-style-type: none;
+}
+
+#navbar a{
+    display:flex;
+    align-items: center;
+    padding:0 50px;
+    width:auto;
+    color:white;
+    text-decoration:none;
+    font-weight: bold;
+    font-size: 1.2em;
+    transition:border-bottom .3s ease-in-out,
+                background-color .3s ease-in-out;
+    
+}
+
+#navbar a:hover{
+    border-bottom: 5px solid white;
+    padding-top:5px;
+    background-color:#061a40;
+}
+
+#welcome-section{
+    height:100vh;
+    background:#1f2232;
+    text-align:center;
+    padding-top:75px;
+    box-sizing: border-box;
+}
+
+#welcome-section h1{
+    margin-top:220px;
+    font-size:4em;
+    color:white;
+}
+
+#welcome-section p{
+    font-style: italic;
+    font-weight:100;
+    font-size:1.8em;
+    color:#b9d6f2;
+    margin-top:8px;
+}
+
+.title-divider{
+    background:#596475;
+    color:white;
+    text-align:center;
+    font-size:2em;
+    padding:20px 0;
+    text-decoration: underline;
+}
+
+#projects{
+    padding:50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row-gap: 30px;
+    background:#596475;
+}
+
+.project-tile{
+    width:350px;
+    height:400px;
+    background:#e0e0e0;
+}
+
+.end-wrapper{
+    height:100vh;
+    width:100%;
+    background:#1f2232;
+    padding:0;
+}
+
+#contact{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:flex-start;
+    width:100%;
+    height:auto;
+    background:#1f2232;
+    box-sizing: border-box;
+}
+
+#contact h2{
+    color:white;
+    font-size:3em;
+    margin-top:180px;
+}
+
+#contact p{
+    font-style: italic;
+    color:#b9d6f2;
+    font-size:1.5em;
+    margin-bottom:300px;
+}
+
+#contact ul{
+    width:50%;
+    height:50px;
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-around;
+    margin-top:-200px;
+    list-style-type: none;
+}
+
+#contact .social{
+    color:white;
+    padding-bottom: 5px;
+    font-weight:bold;
+    font-size:1.5em;
+    text-decoration:none;
+    position:realtive;
+    bottom:0;
+    transition:all .3s ease-in-out;
+}
+
+#contact .social:hover{
+    position:relative;
+    bottom:5px;
+    border-bottom:5px solid white;
+}
+
+.social span{
+    margin-left:10px;
+}
