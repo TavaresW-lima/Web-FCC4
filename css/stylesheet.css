@@ -89,9 +89,23 @@ body{
 }
 
 .project-tile{
-    width:350px;
-    height:400px;
+    width:400px;
+    height:280px;
     background:#e0e0e0;
+    overflow: hidden;
+}
+
+.project-tile img{
+    width:100%;
+    height:auto;
+}
+
+.project-tile p{
+    width:100%;
+    padding:15px 0;
+    text-align: center;
+    color:#030303;
+    font-size:1.3em;
 }
 
 .end-wrapper{
