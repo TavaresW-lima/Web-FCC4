@@ -21,7 +21,7 @@ body{
 #navbar ul{
     margin-left:50%;
     display:flex;
-    justify-content: flex-end;
+    justify-content: space-around;
     align-items: stretch;
     flex-direction: row;
     width:50%;
@@ -38,7 +38,7 @@ body{
     text-decoration:none;
     font-weight: bold;
     font-size: 1.2em;
-    transition:border-bottom .3s ease-in-out,
+    transition:border-bottom .3s linear,
                 background-color .3s ease-in-out;
     
 }
